@@ -1,0 +1,44 @@
+ONLINE BOOK SHOPPING   APPLICATION
+
+OVERVIEW
+We will try to make online  book shopping application  with the help of node js and express.
+WORKING
+In this application we will have five  section , the first section will be home  page ,second section will be  the login page ,  third section will be products page ,fourth section will be payment page
+In the home page section it will have navbar from where he can perform many task, he can create new user, he can directly log in , he can go to about page and various activities,
+In case the user didn't have facebook or google account , then we have provided the option of custom login , In this user first has to sign up , he will give his\her info, from there we will set his account and we will provide username and password via email. And from this detail  he/she can log in.
+In the login page section we will try to login the user by various method like he/she can log in with the help of google,facebook and custom login with the help of username and password. In this we will use passport google oauth package.
+In the product page or product page there will  be books which he/she  can buy and after clicking on the payment button he will be redirected to the  payment gateway. In this i have added paytm gateway. 
+In the fourth  page there will be the payment gateway in which the user will fill in their card details , this page will also have authentication , and once all the details are complete it will be redirected to the success page . 
+There will also be admin login from homepage , only admin can log in from this page , admin can modify the content from product page , admin can perform crud operation in product page . But in this project we didn't provide the ui for admin , all the operations are performed with the help of a tool which is postman
+BLOCK DIAGRAM
+
+
+
+TECHNOLOGY AND PACKAGES USED:
+1.Node js
+2.Express
+3.Passport Authentication
+4.Paytm Gateway
+5.Mongoose
+6.Tempelate Engines/Bootstrap
+7. .Env
+8.Body-Parser
+9. Cookies/Session
+For deployment we will use heroku .
+FUTURE MODIFICATION:
+In future for the login page we will try to give more options for log in like he/she can do the login with the help of google , facebook,linkedin and in product page also we will be adding chat facilities for customers for any support.  
+Right now admin work has been done only in api. We didn't provide the ui for the admin side. 
+On the payment side we will  try to give more options for payment like stripe and paypal , phone pe etc. 
+We will also add more and more items ,we will convert this book shopping into a complete E- shopping cart .
+
+ 
+
+
+
+
+
+
+
+
+
+
