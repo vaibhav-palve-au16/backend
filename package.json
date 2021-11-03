@@ -26,6 +26,6 @@
     "passport-facebook": "^3.0.0",
     "passport-google-oauth2": "^0.2.0",
     "stripe": "^8.150.0",
-    "validator": "^13.5.2"
+    "validator": "^13.7.0"
   }
 }
